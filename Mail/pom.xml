@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>cn.xy</groupId>
+        <artifactId>java-util</artifactId>
+        <version>1.0</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>mail</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+
+    <properties>
+        <!--邮件-->
+        <mail.version>1.6.2</mail.version>
+    </properties>
+
+    <dependencies>
+        <!-- 邮件 -->
+        <dependency>
+            <groupId>com.sun.mail</groupId>
+            <artifactId>javax.mail</artifactId>
+            <version>[${mail.version},)</version>
+        </dependency>
+        <!-- 工具包 -->
+        <dependency>
+            <groupId>cn.xy</groupId>
+            <artifactId>dispose</artifactId>
+            <version>1.0</version>
+        </dependency>
+    </dependencies>
+
+</project>
