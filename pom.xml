@@ -26,6 +26,8 @@
 
     <dependencyManagement>
         <dependencies>
+            <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-core -->
+
 
         </dependencies>
     </dependencyManagement>
